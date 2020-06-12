@@ -9,7 +9,7 @@
           "value": "broadcasting"
         }
       ],
-      "name": "spring.rocket.mq.global.message-model"
+      "name": "spring.rocket.consumer.global.message-model"
     },
     {
       "values": [
@@ -32,7 +32,7 @@
           "value": "consume_from_timestamp"
         }
       ],
-      "name": "spring.rocket.mq.global.consume-from-where"
+      "name": "spring.rocket.consumer.global.consume-from-where"
     }
   ]
 }

@@ -32,7 +32,7 @@ import java.util.Set;
 @Slf4j
 @EnableConfigurationProperties(GlobalConfig.class)
 @ConditionalOnBean({MessageListener.class})
-public class RocketMQAutoConfiguration implements InitializingBean {
+public class RocketMQConsumerAutoConfiguration implements InitializingBean {
     @Autowired
     private GlobalConfig globalConfig;
     @Autowired

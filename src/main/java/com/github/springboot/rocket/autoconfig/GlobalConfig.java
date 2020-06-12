@@ -21,7 +21,7 @@ import java.util.Map;
 @Setter
 @ConfigurationProperties(prefix = GlobalConfig.CONFIG_PREFIX)
 public class GlobalConfig {
-    public static final String CONFIG_PREFIX = "spring.rocket.mq";
+    public static final String CONFIG_PREFIX = "spring.rocket.consumer";
     public static final int DEFAULT_POLL_NAME_SERVER_INTEVAL = 1000 * 30;
     public static final int DEFAULT_HEARTBEAT_BROKER_INTERVAL = 1000 * 30;
     public static final int DEFAULT_PERSIST_CONSUMER_OFFSET_INTERVAL = 1000 * 5;
